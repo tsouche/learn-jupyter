@@ -42,6 +42,7 @@ chmod +x /usr/local/bin/docker-machine
 # install jupyter
 apt-get install -y python3-pip
 pip install jupyterlab notebook
+export PATH=$PATH+":/home/thierry/.local/bin"
 
 # install bash kernel for jupyter
 pip install bash_kernel
