@@ -15,6 +15,8 @@ echo "..."
 
 apt-get update
 #apt-get upgrade -y
+apt-get install curl
+apt-get install git
 
 echo "..."
 echo "done"
